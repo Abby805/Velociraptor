@@ -1,0 +1,11 @@
+@function px-to-em($px, $denominator: $base-font-size) {
+  @return $px / $denominator * 1em;
+}
+
+@function betterlighten($color, $percent: 50%) {
+    @return mix(#fff, $color, $percent);
+}
+
+@function betterdarken($color, $percent: 50%) {
+    @return mix(#000, $color, $percent);
+}

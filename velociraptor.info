@@ -1,0 +1,41 @@
+name = Velociraptor
+description = D7 starter theme by Abby Milberg.
+screenshot = screenshot.png
+version = 1.0-beta
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = stylesheets/style.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/velociraptor-functions.js
+; You're gonna want a Modernizr build in here, and possibly a couple libraries depending on project
+
+; ========================================
+; Regions
+; ========================================
+regions[content] = Content
+
+; ========================================
+; Features
+; ========================================
+features[] = logo
+features[] = favicon
+
+; ========================================
+; Settings
+; ========================================
+settings[toggle_logo] = 0
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+settings[toggle_node_user_picture] = 0
+settings[toggle_comment_user_picture] = 0
+settings[toggle_comment_user_verification] = 0
+settings[toggle_favicon] = 0
+settings[toggle_main_menu] = 0
+settings[toggle_secondary_menu] = 0
